@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 150px;
+}
+
+td {
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+
+a:hover {
+    color: black;
+    border-bottom: 3px solid #5243C0;
+    
+}
+
+.button {
+    border: black;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+}
+
+.arrow {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size: 80px;
+    padding-left: 10px;
+}
+
+.desc {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.new_account_button {
+    font-family: sans-serif;
+    padding: 20px 40px 20px 40px;
+    border-radius: 25px;
+    background-color: #5243C0;
+    color: white;
+    border:none;
+}
+
+.picture {
+    width: 700px;
+}
+
+.checkbox td {
+    padding: 5px 20px 5px 20px;
+}
+
+.checkbox {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+
+.row1 {
+    background-color: #ededed;
+    padding-top: 30px;
+}
+
+.row1:hover {
+    box-shadow: 0 0 50px whitesmoke;
+    background-color: white;
+}
+
+.item1 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.item2 {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.date {
+    font-family: sans-serif;
+    color: grey;
+}
+
